@@ -1,3 +1,29 @@
 h1{
     color: blue;
 }
+
+header{
+    background-color: aqua;
+}
+
+nav{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    margin: 20px;
+}
+video{
+    margin: 40px;
+}
+
+footer{
+    background-color: aqua;
+}
+
+#footer_titulo{
+    background-color: aquamarine;
+}
