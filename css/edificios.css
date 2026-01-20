@@ -1,7 +1,12 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+    
 }
 table{
     width: 100%;
@@ -10,18 +15,46 @@ img{
     width: 100%;
 }
 
-#arriba{
-    margin-bottom: 30%;
-}
-
-#abajo{
-    margin-top: 70%;
+.textosmedio{
+    margin-top: 40%;
+    margin-bottom: 40%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 hr {
-    border: 150;
+    height: 500px;
     height: 1px;
     background-color: #e0e0e0;
-    margin: 2rem 0;
-    margin: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
     }
+
+.rightside{
+    position: relative;
+    background-image: url(../img/edificios.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.content{
+    border-bottom: 5px solid #999; 
+    padding-bottom: 8px;          
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.blanco{
+    font-size: 70px;
+    position: absolute;
+    margin: 5%;
+    left: 0;
+    bottom: 0;
+    text-align: left;
+}
+
